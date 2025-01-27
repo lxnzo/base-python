@@ -89,3 +89,26 @@ print(f"Ваше возраст - {in_age}")
 print(type(in_age))
 
 print(12 == int(in_age))
+
+
+#spiski
+manes = []
+
+#dobavlenie elementa v konec spiska
+names.append(2)
+names.append("Alex")
+my_name = "Elena"
+names.append(my_name)
+
+#poluchit element spiska (s udaleniem ego iz spiska)
+last_name = names.pop(0)
+print(last_name)
+print(names)
+
+#pochet kol-va elementa v spiske
+print(names.count("Alex"))
+
+names.append("Alex")
+print(names)
+ind = names.index("Alex")
+print(ind)
